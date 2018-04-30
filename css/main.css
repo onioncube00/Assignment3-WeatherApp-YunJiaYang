@@ -22,7 +22,7 @@ body {
   max-width: 700px;
   max-height: 1200px;
   margin: auto;
-  font-family: atrament;
+  font-family: atrament-web;
 }
 @media only screen and (min-width: 601px) {
   .title {
@@ -39,7 +39,7 @@ body {
   }
 }
 .t1 {
-  font-family: atrament;
+  font-family: atrament-web;
   font-weight: bold;
   font-size: 120px;
   width: 80vw;
@@ -59,7 +59,7 @@ body {
     border-width: 20px;
     border-style: solid;
     margin: 20px auto 40px;
-    font-family: atrament;
+    font-family: atrament-web;
     font-weight: bold;
     box-sizing: content-box;
     font-size: 80px;
@@ -95,7 +95,7 @@ body {
     border-width: 20px;
     border-style: solid;
     margin: 20px 0px 40px;
-    font-family: atrament;
+    font-family: atrament-web;
     font-weight: bold;
     box-sizing: content-box;
     font-size: 80px;
@@ -239,7 +239,7 @@ p {
   .weather {
     /* background: lightpink; */
     margin: auto auto auto 7px;
-    font-family: atrament;
+    font-family: atrament-web;
     font-size: 35px;
   }
 }
@@ -247,7 +247,7 @@ p {
   .weather {
     /* background: lightpink; */
     margin: auto auto auto 7px;
-    font-family: atrament;
+    font-family: atrament-web;
     width: 200px;
     font-size: 50px;
   }
@@ -282,7 +282,7 @@ p {
   .bar2 {
     border-style: hidden;
     background: transparent;
-    font-family: atrament;
+    font-family: atrament-web;
     font-size: 35px;
     margin: auto;
     text-align: center;
@@ -293,7 +293,7 @@ p {
   .bar2 {
     border-style: hidden;
     background: transparent;
-    font-family: atrament;
+    font-family: atrament-web;
     font-size: 30px;
     margin-bottom: 5px;
     text-align: left;
@@ -423,7 +423,7 @@ p {
     width: 80%;
     height: inherit;
     /* margin: 0px 20px 0px 0px; */
-    font-family: atrament;
+    font-family: atrament-web;
     font-weight: bold;
     font-size: 200px;
     margin: auto auto auto 0px;
@@ -444,7 +444,7 @@ p {
     width: 280px;
     height: 130px;
     /* margin: 0px 20px 0px 0px; */
-    font-family: atrament;
+    font-family: atrament-web;
     font-weight: bold;
     font-size: 150px;
     margin: 0px auto;
