@@ -1,16 +1,7 @@
 /* ========================================
  * CSS written here will override Tachyons
  * ======================================== */
-@font-face {
-  font-family: "Atrament";
-  src: url("atrament.woff.ttf") format("ttf");
-  font-weight: regular;
-}
-@font-face {
-  font-family: "Atrament";
-  src: url("atrament bold.woff.ttf") format("ttf");
-  font-weight: bold;
-}
+
 body {
   display: flex;
   flex-wrap: wrap;
