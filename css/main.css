@@ -1,0 +1,965 @@
+/* ========================================
+ * CSS written here will override Tachyons
+ * ======================================== */
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: space-between;
+  max-width: 700px;
+  max-height: 1200px;
+  margin: auto;
+  font-family: atrament;
+}
+@media only screen and (min-width: 601px) {
+  .title {
+    /* background-color: lightblue; */
+    width: 100%;
+    /* width: 75vw; */
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    border-width: 20px;
+    border-style: solid;
+    margin: 20px auto 40px;
+    font-family: atrament;
+    font-weight: bold;
+    font-size: 120px;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: white;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .title {
+    width: 100%;
+    /* width: 75vw; */
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    border-width: 20px;
+    border-style: solid;
+    margin: 20px auto 40px;
+    font-family: atrament;
+    font-weight: bold;
+    box-sizing: content-box;
+    font-size: 80px;
+    display: flex;
+    background-color: white;
+  }
+}
+.t1 {
+  margin: auto;
+  background-color: white;
+}
+@media only screen and (max-width: 350px) {
+  .title {
+    display: none;
+    background-color: white;
+  }
+}
+@media only screen and (min-width: 351px) {
+  .title2 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .title2 {
+    /* width: 350px;
+    height: 200px; */
+    margin: auto;
+    text-align: center;
+    border-width: 20px;
+    border-style: solid;
+    margin: 20px 0px 40px;
+    font-family: atrament;
+    font-weight: bold;
+    box-sizing: content-box;
+    font-size: 80px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    /* width: 100vmin;
+    height: 100%; */
+    background-color: white;
+    width: 100%;
+  }
+}
+p {
+  margin: 0px;
+  padding: 0px;
+}
+.t2 {
+  text-align: left;
+}
+
+@media only screen and (min-width: 351px) {
+  .content {
+    /* background-color: lightyellow; */
+    width: 100%;
+    height: 700px;
+    /* width: 100vmin;
+    height: 100%; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border-width: 20px;
+    border-style: solid;
+    background-color: white;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .content {
+    /* background-color: lightyellow; */
+    /* width: 700px;
+    height: 700px; */
+    width: 100vmin;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border-width: 20px;
+    border-style: solid;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .content {
+    /* width: 350px;
+    height: 700px; */
+    width: 100vmin;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border-width: 20px;
+    border-style: solid;
+    /* background-color: yellow; */
+    /* box-sizing: content-box; */
+  }
+}
+@media only screen and (min-width: 351px) {
+  .srcline {
+    /* background-color: lightsalmon; */
+    height: 200px;
+    width: 100%;
+    border-bottom-width: 20px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .srcline {
+    /* height: 200px;
+    width: 330px; */
+    width: 100%;
+    /* height: 100%; */
+    border-bottom-width: 20px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .icon {
+    dsiplay: none;
+  }
+}
+@media only screen and (min-width: 351px) {
+  .icon {
+    /* background-color: green; */
+    height: 180px;
+    width: 200px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 20px;
+    border-top-width: 0px;
+    border-style: solid;
+    background-image: url(clouds72.jpg);
+  }
+}
+@media only screen and (min-width: 351px) {
+  .searchbar {
+    width: 400px;
+    height: 40px;
+    /* background-color: lightgreen; */
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .searchbar {
+    /* width: 330px;
+    height: 200px; */
+    width: 100vmin;
+    height: 100%;
+    /* background-color: lightgreen; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+}
+
+@media only screen and (min-width: 351px) {
+  .weather {
+    /* background: lightpink; */
+    margin: auto auto auto 7px;
+    font-family: atrament;
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .weather {
+    /* background: lightpink; */
+    margin: auto auto auto 7px;
+    font-family: atrament;
+    width: 200px;
+    font-size: 50px;
+  }
+}
+@media only screen and (min-width: 351px) {
+  .bar {
+    /* background-color: lightcyan; */
+    margin: auto;
+    width: 250px;
+    height: 50px;
+    border-style: solid;
+    border-bottom-width: 10px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .bar {
+    /* background-color: lightcyan; */
+    margin: 10px auto;
+    width: 200px;
+    height: 50px;
+    border-style: solid;
+    border-bottom-width: 10px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+  }
+}
+@media only screen and (min-width: 351px) {
+  .bar2 {
+    border-style: hidden;
+    background: transparent;
+    font-family: atrament;
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .bar2 {
+    border-style: hidden;
+    background: transparent;
+    font-family: atrament;
+    font-size: 30px;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+}
+@media only screen and (min-width: 351px) {
+  .detailline {
+    /* background-color: lightgray; */
+    height: 480px;
+    /* width: 680px; */
+    width: 100%;
+    /* height: auto;
+    width: auto; */
+    display: flex;
+    flex-direction: row;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-style: solid;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .detailline {
+    /* background-color: lightgray; */
+    /* height: 480px;
+    width: 680px; */
+    width: 100vmin;
+    height: 100%;
+    /* height: auto;
+    width: auto; */
+    display: flex;
+    flex-direction: row;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-style: solid;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .grid {
+    dsiplay: none;
+  }
+}
+@media only screen and (min-width: 351px) {
+  .grid {
+    /* background-color: lightyellow; */
+    width: 200px;
+    height: 480px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 20px;
+    border-top-width: 0px;
+    border-style: solid;
+    /* background-image: url(pattern1.png); */
+  }
+}
+@media only screen and (min-width: 351px) {
+  .detail {
+    /* background-color: lightgreen; */
+    width: 460px;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-style: solid; */
+    align-content: space-between;
+    margin: 40px 0px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .detail {
+    /* width: 310px;
+    height: 480px; */
+    width: 100vmin;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-style: solid;
+    align-content: flex-start;
+    justify-content: center;
+    padding: 10px;
+  }
+}
+@media only screen and (min-width: 351px) {
+  .temperature {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 170px;
+    /* background-color: blue; */
+    margin: 50px auto 10px;
+    padding: 0px;
+    /* border-style: solid;
+    border-bottom-width: 10px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px; */
+  }
+}
+@media only screen and (max-width: 350px) {
+  .temperature {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 280px;
+    height: 250px;
+    /* background-color: blue; */
+    margin: 30px auto;
+    padding: 0px;
+  }
+}
+@media only screen and (min-width: 351px) {
+  .temperaturenow {
+    /* background-color: gray; */
+    width: 200px;
+    height: inherit;
+    /* margin: 0px 20px 0px 0px; */
+    font-family: atrament;
+    font-weight: bold;
+    font-size: 200px;
+    margin: auto auto auto 0px;
+    /* text-align: justify; */
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    line-height: 0.8;
+    padding: 0px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .temperaturenow {
+    /* background-color: gray; */
+    width: 280px;
+    height: 130px;
+    /* margin: 0px 20px 0px 0px; */
+    font-family: atrament;
+    font-weight: bold;
+    font-size: 150px;
+    margin: 0px auto;
+    /* text-align: justify; */
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    line-height: 0.8;
+    border-bottom-width: 10px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-style: solid;
+  }
+}
+@media only screen and (min-width: 351px) {
+  .temprange {
+    width: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
+    height: inherit;
+    /* background-color: yellow; */
+    margin: auto 0px auto auto;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .temprange {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: space-between;
+    margin: 0px auto;
+    border-bottom-width: 10px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-style: solid;
+    width: 280px;
+  }
+}
+@media only screen and (min-width: 351px) {
+  .maxtemp {
+    width: 50px;
+    height: 50px;
+    /* background-color: red; */
+    font-size: 30px;
+    margin: auto;
+    font-weight: bold;
+    display: flex;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .maxtemp {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+  }
+}
+@media only screen and (min-width: 351px) {
+  .mintemp {
+    width: 50px;
+    height: 50px;
+    /* background-color: red; */
+    font-size: 30px;
+    margin: auto;
+    font-weight: bold;
+    display: flex;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .mintemp {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+  }
+}
+.tp1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: auto;
+  /* background-color: lightpink; */
+  justify-content: center;
+  align-items: center;
+}
+.tp2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: auto;
+  /* background-color: lightpink; */
+  justify-content: center;
+  align-items: center;
+}
+
+.ar1,
+.ar2 {
+  font-size: 30px;
+  font-family: menlo;
+  text-align: left;
+  margin: auto;
+}
+
+@media only screen and (min-width: 351px) {
+  .remain {
+    width: 400px;
+    height: 100px;
+    /* background-color: pink; */
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-style: solid;
+    border-top-width: 10px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    padding: 20px 0px;
+  }
+}
+@media only screen and (min-width: 351px) {
+  .location {
+    width: 190px;
+    height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0px;
+  }
+  .hot .weathertype3 {
+    width: auto;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff8615;
+  }
+  .hot .weathertype2 {
+    display: none;
+  }
+  .hot .weathertype1 {
+    display: none;
+  }
+  .cold .weathertype3 {
+    display: none;
+  }
+  .cold .weathertype2 {
+    display: none;
+  }
+  .cold .weathertype1 {
+    width: auto;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #8ae1ff;
+  }
+  .warm .weathertype3 {
+    display: none;
+  }
+  .warm .weathertype2 {
+    width: auto;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffcf3f;
+  }
+  .warm .weathertype1 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .location {
+    width: 250px;
+    height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .hot .weathertype3 {
+    width: auto;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff8615;
+    padding: 0px 0px 0px 10px;
+  }
+  .hot .weathertype2 {
+    display: none;
+  }
+  .hot .weathertype1 {
+    display: none;
+  }
+  .cold .weathertype3 {
+    display: none;
+  }
+  .cold .weathertype2 {
+    display: none;
+  }
+  .cold .weathertype1 {
+    width: auto;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #8ae1ff;
+    padding: 0px 0px 0px 10px;
+  }
+  .warm .weathertype3 {
+    display: none;
+  }
+  .warm .weathertype2 {
+    width: auto;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffcf3f;
+    padding: 0px 0px 0px 10px;
+  }
+  .warm .weathertype1 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .location {
+    width: 280px;
+    height: 50px;
+    /* background-color: gray; */
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0px 0px 0px 5px;
+  }
+}
+
+@media only screen and (min-width: 351px) {
+  .weatherdetail {
+    width: 210px;
+    height: 50px;
+    /* background-color: gray; */
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .weatherdetail {
+    width: 150px;
+    height: 100px;
+    /* background-color: gray; */
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    padding: 0px 0px 0px 5px;
+  }
+}
+/* .line {
+  heigth: 30px;
+  border-style: solid;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 10px;
+} */
+
+/* .dn {
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 50px;
+  width: 100%;
+  height: 200px;
+  flex-flow: nowrap;
+} */
+
+/* background */
+@media only screen and (max-width: 350px) {
+  .clear .content {
+    background-image: url(clearbg.png);
+    background-position: center;
+    background-size: 400%;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .rain .content {
+    background-image: url(rainbg.png);
+    background-position: center;
+    background-size: 400%;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .mist .content {
+    background-image: url(mistbg.png);
+    background-size: 400%;
+    background-position: center;
+  }
+  .fog .content {
+    background-image: url(mistbg.png);
+    background-size: 400%;
+    background-position: center;
+  }
+  .haze .content {
+    background-image: url(mistbg.png);
+    background-size: 400%;
+    background-position: center;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .snow .content {
+    background-image: url(snowbgxs.png);
+    background-position: center;
+    background-size: 400%;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .drizzle .content {
+    background-image: url(drizzlebg.png);
+    background-position: center;
+    background-size: 400%;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .clouds .content {
+    background-image: url(cloudsbg.png);
+    background-position: center;
+    background-size: 400%;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .thunderstorm .content {
+    background-image: url(thunderbg.png);
+    background-position: center;
+    background-size: 400%;
+  }
+}
+/* big background */
+@media only screen and (min-width: 350px) {
+  .rain {
+    background-image: url(rainbg.png);
+    background-size: cover;
+    color: black;
+    background-position: center;
+  }
+}
+@media only screen and (min-width: 350px) {
+  .clouds {
+    background-image: url(cloudsbg.png);
+    background-size: cover;
+    color: black;
+    background-position: center;
+    /* background-attachment: fixed; */
+  }
+}
+@media only screen and (min-width: 350px) {
+  .clear {
+    background-image: url(clearbg.png);
+    background-size: cover;
+    color: black;
+    background-position: center;
+  }
+}
+@media only screen and (min-width: 350px) {
+  .snow {
+    background-image: url(snowbg.png);
+    background-size: cover;
+    color: black;
+    background-position: center;
+  }
+}
+@media only screen and (min-width: 350px) {
+  .mist {
+    background-image: url(mistbg.png);
+    background-size: cover;
+    color: black;
+    background-position: center;
+  }
+  .haze {
+    background-image: url(mistbg.png);
+    background-size: cover;
+    color: black;
+    background-position: center;
+  }
+  .fog {
+    background-image: url(mistbg.png);
+    background-size: cover;
+    color: black;
+    background-position: center;
+  }
+}
+@media only screen and (min-width: 350px) {
+  .thunderstorm {
+    background-image: url(thunderbg.png);
+    background-size: cover;
+    color: black;
+    background-position: center;
+  }
+}
+@media only screen and (min-width: 350px) {
+  .drizzle {
+    background-image: url(drizzlebg.png);
+    background-size: cover;
+    color: black;
+    background-position: center;
+  }
+}
+
+/* icon + pattern */
+
+.rain .grid {
+  background-image: url(rainpattern.png);
+  height: 100%;
+  background-size: cover;
+}
+.rain .icon {
+  background-image: url(rainicon.png);
+  height: 100%;
+  background-size: cover;
+}
+
+.drizzle .grid {
+  background-image: url(drizzlepattern.png);
+  height: 100%;
+  background-size: cover;
+}
+.drizzle .icon {
+  background-image: url(drizzleicon.png);
+  height: 100%;
+  background-size: cover;
+}
+
+.clear .grid {
+  background-image: url(clearpattern.png);
+  height: 100%;
+  background-size: cover;
+}
+.clear .icon {
+  background-image: url(clearicon.png);
+  height: 100%;
+  background-size: cover;
+}
+
+.clouds .grid {
+  background-image: url(cloudspattern.png);
+  height: 100%;
+  background-size: cover;
+}
+.clouds .icon {
+  background-image: url(cloudsicon.png);
+  height: 100%;
+  background-size: cover;
+}
+
+.snow .grid {
+  background-image: url(snowpattern.png);
+  height: 100%;
+  background-size: cover;
+}
+.snow .icon {
+  background-image: url(snowicon.png);
+  height: 100%;
+  background-size: cover;
+}
+
+.thunderstorm .grid {
+  background-image: url(thunderpattern.png);
+  height: 100%;
+  background-size: cover;
+}
+.thunderstorm .icon {
+  background-image: url(thundericon.png);
+  height: 100%;
+  background-size: cover;
+}
+
+.mist .grid {
+  background-image: url(mistpattern.png);
+  height: 100%;
+  background-size: cover;
+}
+.mist .icon {
+  background-image: url(misticon.png);
+  height: 100%;
+  background-size: cover;
+}
+
+.haze .grid {
+  background-image: url(mistpattern.png);
+  height: 100%;
+  background-size: cover;
+}
+.haze .icon {
+  background-image: url(misticon.png);
+  height: 100%;
+  background-size: cover;
+}
+
+.fog .grid {
+  background-image: url(mistpattern.png);
+  height: 100%;
+  background-size: cover;
+}
+.fog .icon {
+  background-image: url(misticon.png);
+  height: 100%;
+  background-size: cover;
+}
+
+.dn .grid {
+  background-image: url(errorpattern.png);
+  height: 100%;
+  background-size: cover;
+}
+.dn .icon {
+  background-image: url(erroricon.png);
+  height: 100%;
+  background-size: cover;
+}
+
+.cold .t1 {
+  color: #8ae1ff;
+}
+.warm .t1 {
+  color: #ffcf3f;
+}
+.hot .t1 {
+  color: #ff8615;
+}
+
+.cold .t2 {
+  color: #8ae1ff;
+}
+.warm .t2 {
+  color: #ffcf3f;
+}
+.hot .t2 {
+  color: #ff8615;
+}
+/* .warm.mist {
+  background-image: url(icon1-27.png);
+  color: white;
+} */

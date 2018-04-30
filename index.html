@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Set a page title -->
+  <title>Weatherphis</title>
+
+  <!-- Site Styles -->
+  <link rel="stylesheet" href="/css/tachyons.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+
+  <div id="error" class="dn bg-black white pa4 fixed bottom-0 w-100">
+    Sorry, we couldn't find that city.
+  </div>
+
+
+  <div class="title">
+    <div class="t1">Weatherphis</div>
+  </div>
+
+  <div class="title2">
+    <div class="t2">
+      <p>Weather-</p>
+      <p>phis</p>
+    </div>
+  </div>
+
+  <div class="content">
+
+    <form id="location-search" class="srcline">
+      <div class="icon"></div>
+
+
+      <div class="searchbar">
+        <div class="weather">
+          Weather for:
+        </div>
+        <div class="bar">
+
+
+          <input type="text" id="area" value="Boston" class="bar2">
+        </div>
+
+      </div>
+
+    </form>
+    <div class="detailline">
+      <div class="grid">
+        <!-- <img src="rain-03.png" alt="1" width="100%"> -->
+      </div>
+
+      <div class="detail">
+
+        <div class="temperature">
+          <div class="temperaturenow">
+            <span id="temp"></span>
+            <span>°F</span>
+          </div>
+
+          <div class="temprange">
+
+            <div class="maxtemp">
+              <div class="tp1">
+                <div class="ar1">
+                  ↑</div>
+                <span id="temp-max"></span>
+              </div>
+            </div>
+
+            <div class="mintemp">
+              <div class="tp2">
+                <div class="ar2">
+                  ↓</div>
+                <span id="temp-min"></span>
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+        <div class="remain">
+
+
+          <div class="location">
+            <span id="location-name"></span>,<span id="country"></span>
+            <div class="weathertype1">#Cold</div>
+            <div class="weathertype2">#Warm</div>
+            <div class="weathertype3">#Hot</div>
+          </div>
+          <div class="weatherdetail">
+            <span id="condition"></span>,<span id="wind-speed"></span>mph
+            <!-- <div class="line">can't see me</div> -->
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+  <script src="/javascript/toggleClass.js" charset="utf-8"></script>
+  <script src="/javascript/main.js" charset="utf-8"></script>
+  <script src="/javascript/weather.js" charset="utf-8"></script>
+
+</body>
+
+</html>
