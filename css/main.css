@@ -1,7 +1,7 @@
 /* ========================================
  * CSS written here will override Tachyons
  * ======================================== */
-@font-face {
+/* @font-face {
   font-family: "atrament";
   src: url(fonts/Atrament.ttf);
   font-style: normal;
@@ -11,8 +11,8 @@
   font-family: "atrament";
   src: url(fonts/Atrament-Bold.ttf);
   font-style: normal;
-  font-weight: bold;
-}
+  font-weight: 700;
+} */
 
 body {
   display: flex;
@@ -31,17 +31,23 @@ body {
     /* width: 75vw; */
     height: 200px;
     margin: auto;
-    text-align: center;
     border-width: 20px;
     border-style: solid;
     margin: 20px auto 40px;
-    font-family: atrament;
-    font-weight: bold;
-    font-size: 120px;
-    justify-content: center;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     background-color: white;
   }
+}
+.t1 {
+  font-family: atrament;
+  font-weight: bold;
+  font-size: 120px;
+  width: 80vw;
+  height: 15vh;
+  margin: auto;
+  background-color: white;
+  text-align: center;
+  text-align: justify;
 }
 @media only screen and (max-width: 600px) {
   .title {
@@ -58,12 +64,16 @@ body {
     box-sizing: content-box;
     font-size: 80px;
     display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
     background-color: white;
   }
 }
 .t1 {
+  width: 85%;
   margin: auto;
   background-color: white;
+  text-align: center;
 }
 @media only screen and (max-width: 350px) {
   .title {
@@ -410,20 +420,22 @@ p {
 @media only screen and (min-width: 351px) {
   .temperaturenow {
     /* background-color: gray; */
-    width: 200px;
+    width: 80%;
     height: inherit;
     /* margin: 0px 20px 0px 0px; */
     font-family: atrament;
     font-weight: bold;
     font-size: 200px;
     margin: auto auto auto 0px;
+    text-align: justify;
     /* text-align: justify; */
-    box-sizing: content-box;
+    /* box-sizing: content-box; */
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     line-height: 0.8;
     padding: 0px;
+    /* text-align: center; */
   }
 }
 @media only screen and (max-width: 350px) {
